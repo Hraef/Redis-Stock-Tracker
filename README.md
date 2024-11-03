@@ -24,25 +24,25 @@ This project:
 
 
 2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 
 3. **Configure API Key**:
-   - Create a `.env` file in the root directory.
-   - Add your Marketstack API key:
-     ```plaintext
-     APIKEY=your_marketstack_api_key
-     ```
+    - Create a `.env` file in the root directory.
+    - Add your Marketstack API key:
+      ```plaintext
+      APIKEY=your_marketstack_api_key
+      ```
 
 4. **Start Redis**:
-   - Ensure Redis is running locally. I used docker to run redis in this project
-     ```bash
-     docker run --name redis -d -p 6379:6379 redis
-     ```
+    - Ensure Redis is running locally. I used docker to run redis in this project
+      ```bash
+      docker run --name redis -d -p 6379:6379 redis
+      ```
     - to verify the container is up and running run
-    ```bash
-    docker ps
-    ```
+      ```bash
+      docker ps
+      ```
 
 ## Running the Project
 
